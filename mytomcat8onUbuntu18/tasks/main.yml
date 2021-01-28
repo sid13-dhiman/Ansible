@@ -1,2 +1,10 @@
 ---
 # tasks file for mytomcat8onUbuntu18
+
+- include_tasks: myjavainstall.yml
+- include_tasks: CreateTomcatUser.yml
+- include_tasks: InstallTomcat.yml
+- include_tasks: UpdatePermissions.yml
+- include_tasks: tomcatservice.yml
+- include_tasks: Tomcatstart.yml 
+- include_tasks: TomcatManagement.yml 

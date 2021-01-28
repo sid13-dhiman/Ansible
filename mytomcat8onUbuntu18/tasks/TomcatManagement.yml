@@ -1,0 +1,5 @@
+--- 
+- name: copy tomcat user file into server side
+  template:
+     src:  templates/tomcatuser.j2
+     dest: /opt/tomcat/conf/tomcat-users.xml 
