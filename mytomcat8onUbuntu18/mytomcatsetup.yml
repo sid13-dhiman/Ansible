@@ -1,5 +1,5 @@
 --- 
-- file: myappservers
+- myfile: myappservers
   become: yes
   roles:
     - {role: mytomcat8onUbuntu18, when: ansible_os_family== "Debian"}      
